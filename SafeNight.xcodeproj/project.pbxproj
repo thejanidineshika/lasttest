@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B581EAA01C9E7CFD00A918FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B581EA9F1C9E7CFD00A918FA /* main.m */; };
+		B581EAA31C9E7CFD00A918FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B581EAA21C9E7CFD00A918FA /* AppDelegate.m */; };
+		B581EAA61C9E7CFD00A918FA /* SafeNight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B581EAA41C9E7CFD00A918FA /* SafeNight.xcdatamodeld */; };
+		B581EAA91C9E7CFD00A918FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B581EAA81C9E7CFD00A918FA /* ViewController.m */; };
+		B581EAAC1C9E7CFD00A918FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B581EAAA1C9E7CFD00A918FA /* Main.storyboard */; };
+		B581EAAE1C9E7CFD00A918FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B581EAAD1C9E7CFD00A918FA /* Images.xcassets */; };
+		B581EAB11C9E7CFD00A918FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B581EAAF1C9E7CFD00A918FA /* LaunchScreen.xib */; };
+		B581EABD1C9E7CFD00A918FA /* SafeNightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B581EABC1C9E7CFD00A918FA /* SafeNightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B581EAB71C9E7CFD00A918FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B581EA921C9E7CFD00A918FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B581EA991C9E7CFD00A918FA;
+			remoteInfo = SafeNight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B581EA9A1C9E7CFD00A918FA /* SafeNight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeNight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B581EA9E1C9E7CFD00A918FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B581EA9F1C9E7CFD00A918FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B581EAA11C9E7CFD00A918FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B581EAA21C9E7CFD00A918FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B581EAA51C9E7CFD00A918FA /* SafeNight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafeNight.xcdatamodel; sourceTree = "<group>"; };
+		B581EAA71C9E7CFD00A918FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B581EAA81C9E7CFD00A918FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B581EAAB1C9E7CFD00A918FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B581EAAD1C9E7CFD00A918FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B581EAB01C9E7CFD00A918FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B581EAB61C9E7CFD00A918FA /* SafeNightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeNightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B581EABB1C9E7CFD00A918FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B581EABC1C9E7CFD00A918FA /* SafeNightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeNightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B581EA971C9E7CFD00A918FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581EAB31C9E7CFD00A918FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B581EA911C9E7CFD00A918FA = {
+			isa = PBXGroup;
+			children = (
+				B581EA9C1C9E7CFD00A918FA /* SafeNight */,
+				B581EAB91C9E7CFD00A918FA /* SafeNightTests */,
+				B581EA9B1C9E7CFD00A918FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B581EA9B1C9E7CFD00A918FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B581EA9A1C9E7CFD00A918FA /* SafeNight.app */,
+				B581EAB61C9E7CFD00A918FA /* SafeNightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B581EA9C1C9E7CFD00A918FA /* SafeNight */ = {
+			isa = PBXGroup;
+			children = (
+				B581EAA11C9E7CFD00A918FA /* AppDelegate.h */,
+				B581EAA21C9E7CFD00A918FA /* AppDelegate.m */,
+				B581EAA71C9E7CFD00A918FA /* ViewController.h */,
+				B581EAA81C9E7CFD00A918FA /* ViewController.m */,
+				B581EAAA1C9E7CFD00A918FA /* Main.storyboard */,
+				B581EAAD1C9E7CFD00A918FA /* Images.xcassets */,
+				B581EAAF1C9E7CFD00A918FA /* LaunchScreen.xib */,
+				B581EAA41C9E7CFD00A918FA /* SafeNight.xcdatamodeld */,
+				B581EA9D1C9E7CFD00A918FA /* Supporting Files */,
+			);
+			path = SafeNight;
+			sourceTree = "<group>";
+		};
+		B581EA9D1C9E7CFD00A918FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B581EA9E1C9E7CFD00A918FA /* Info.plist */,
+				B581EA9F1C9E7CFD00A918FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B581EAB91C9E7CFD00A918FA /* SafeNightTests */ = {
+			isa = PBXGroup;
+			children = (
+				B581EABC1C9E7CFD00A918FA /* SafeNightTests.m */,
+				B581EABA1C9E7CFD00A918FA /* Supporting Files */,
+			);
+			path = SafeNightTests;
+			sourceTree = "<group>";
+		};
+		B581EABA1C9E7CFD00A918FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B581EABB1C9E7CFD00A918FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B581EA991C9E7CFD00A918FA /* SafeNight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B581EAC01C9E7CFD00A918FA /* Build configuration list for PBXNativeTarget "SafeNight" */;
+			buildPhases = (
+				B581EA961C9E7CFD00A918FA /* Sources */,
+				B581EA971C9E7CFD00A918FA /* Frameworks */,
+				B581EA981C9E7CFD00A918FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeNight;
+			productName = SafeNight;
+			productReference = B581EA9A1C9E7CFD00A918FA /* SafeNight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B581EAB51C9E7CFD00A918FA /* SafeNightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B581EAC31C9E7CFD00A918FA /* Build configuration list for PBXNativeTarget "SafeNightTests" */;
+			buildPhases = (
+				B581EAB21C9E7CFD00A918FA /* Sources */,
+				B581EAB31C9E7CFD00A918FA /* Frameworks */,
+				B581EAB41C9E7CFD00A918FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B581EAB81C9E7CFD00A918FA /* PBXTargetDependency */,
+			);
+			name = SafeNightTests;
+			productName = SafeNightTests;
+			productReference = B581EAB61C9E7CFD00A918FA /* SafeNightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B581EA921C9E7CFD00A918FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Evan Yeung";
+				TargetAttributes = {
+					B581EA991C9E7CFD00A918FA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B581EAB51C9E7CFD00A918FA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B581EA991C9E7CFD00A918FA;
+					};
+				};
+			};
+			buildConfigurationList = B581EA951C9E7CFD00A918FA /* Build configuration list for PBXProject "SafeNight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B581EA911C9E7CFD00A918FA;
+			productRefGroup = B581EA9B1C9E7CFD00A918FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B581EA991C9E7CFD00A918FA /* SafeNight */,
+				B581EAB51C9E7CFD00A918FA /* SafeNightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B581EA981C9E7CFD00A918FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581EAAC1C9E7CFD00A918FA /* Main.storyboard in Resources */,
+				B581EAB11C9E7CFD00A918FA /* LaunchScreen.xib in Resources */,
+				B581EAAE1C9E7CFD00A918FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581EAB41C9E7CFD00A918FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B581EA961C9E7CFD00A918FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581EAA31C9E7CFD00A918FA /* AppDelegate.m in Sources */,
+				B581EAA01C9E7CFD00A918FA /* main.m in Sources */,
+				B581EAA91C9E7CFD00A918FA /* ViewController.m in Sources */,
+				B581EAA61C9E7CFD00A918FA /* SafeNight.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581EAB21C9E7CFD00A918FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581EABD1C9E7CFD00A918FA /* SafeNightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B581EAB81C9E7CFD00A918FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B581EA991C9E7CFD00A918FA /* SafeNight */;
+			targetProxy = B581EAB71C9E7CFD00A918FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B581EAAA1C9E7CFD00A918FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B581EAAB1C9E7CFD00A918FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B581EAAF1C9E7CFD00A918FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B581EAB01C9E7CFD00A918FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B581EABE1C9E7CFD00A918FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B581EABF1C9E7CFD00A918FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B581EAC11C9E7CFD00A918FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafeNight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B581EAC21C9E7CFD00A918FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafeNight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B581EAC41C9E7CFD00A918FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SafeNightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeNight.app/SafeNight";
+			};
+			name = Debug;
+		};
+		B581EAC51C9E7CFD00A918FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SafeNightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeNight.app/SafeNight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B581EA951C9E7CFD00A918FA /* Build configuration list for PBXProject "SafeNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581EABE1C9E7CFD00A918FA /* Debug */,
+				B581EABF1C9E7CFD00A918FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B581EAC01C9E7CFD00A918FA /* Build configuration list for PBXNativeTarget "SafeNight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581EAC11C9E7CFD00A918FA /* Debug */,
+				B581EAC21C9E7CFD00A918FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B581EAC31C9E7CFD00A918FA /* Build configuration list for PBXNativeTarget "SafeNightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581EAC41C9E7CFD00A918FA /* Debug */,
+				B581EAC51C9E7CFD00A918FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B581EAA41C9E7CFD00A918FA /* SafeNight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B581EAA51C9E7CFD00A918FA /* SafeNight.xcdatamodel */,
+			);
+			currentVersion = B581EAA51C9E7CFD00A918FA /* SafeNight.xcdatamodel */;
+			path = SafeNight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B581EA921C9E7CFD00A918FA /* Project object */;
+}
